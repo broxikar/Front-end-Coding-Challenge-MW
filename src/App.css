@@ -1,7 +1,12 @@
 .App {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
 }
-
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +40,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
